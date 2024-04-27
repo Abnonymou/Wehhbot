@@ -1,9 +1,9 @@
 const { setCommandsSettings } = require('./system/main');
 
 setCommandsSettings({
-  prefix_list: ['*','-'],
-  owner_id: ["100012874754515",
-             "100092157610613"],
+  prefix_list: ['=','.'],
+  owner_id: ["100052395031835",
+             ""],
   menu_command: ['menu', 'help','about'],
   menu_header: 'ChatWithAiOfficial🤖\nThis Bot is made with Love😘 And aims is to create something wierd that helps ppl on thier studies and many more and i love you🤣\nCommand List:',
   item_format: '\n🗨 (prefix)(name)',
