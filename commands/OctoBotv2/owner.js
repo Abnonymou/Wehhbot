@@ -5,11 +5,7 @@ module.exports = async function ({ dstryr, event, parameters }) {
   try {
     
     const ownerInfo = `
-      Owner: Rejard Bentazar 󱢏
-      FB: https://fb.com/100012874754515
-      Github: https://github.com/LeechShares
-      FbPage: https://www.facebook.com/leechshares
-    `;
+      Owner: Kyle Bait-it`;
 
     dstryr.sendMessage(ownerInfo, event.threadID);
      
